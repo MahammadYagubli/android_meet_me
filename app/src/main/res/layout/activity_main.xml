@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_x="91dp"
+        android:layout_y="336dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_x="51dp"
+        android:layout_y="280dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <android.widget.ImageView
+        android:id="@+id/image"
+        android:background="@color/colorAccent"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="100dp"
+        android:layout_y="100dp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="414dp"
+        />
+
+    <Button
+        android:id="@+id/btnphone"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_x="95dp"
+        android:layout_y="404dp"
+        android:background="@color/colorPrimary"
+        android:text="By phone Number"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+
+</AbsoluteLayout>

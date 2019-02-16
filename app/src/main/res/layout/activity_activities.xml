@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Relativelayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Activities">
+    <Button
+        android:id="@+id/btnverify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:onClick="verify"
+        android:layout_y="422dp"
+        android:text="Verify"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <EditText
+        android:id="@+id/txtphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="92dp"
+        android:layout_y="136dp"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <EditText
+        android:id="@+id/txtverify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="96dp"
+        android:layout_y="338dp"
+        android:ems="10"
+        android:text=""
+
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <Button
+        android:id="@+id/btnsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="159dp"
+        android:layout_y="198dp"
+        android:text="send"
+        android:onClick="send_sms"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <Button
+        android:id="@+id/btnafterverify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="173dp"
+        android:layout_y="498dp"
+        android:text="afterverification"
+
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="526dp" />
+</Relativelayout>

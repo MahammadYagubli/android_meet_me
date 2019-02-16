@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "519891350930",
+    "firebase_url": "https://diana-78e6e.firebaseio.com",
+    "project_id": "diana-78e6e",
+    "storage_bucket": "diana-78e6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519891350930:android:de471582d195140e",
+        "android_client_info": {
+          "package_name": "com.team.diana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519891350930-nr2st716a3hakbpqv08jia00b9rihvi1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.team.diana",
+            "certificate_hash": "941ca52820b176705a5b9feb3519b2c14d725987"
+          }
+        },
+        {
+          "client_id": "519891350930-0f70bsjcdfn0r32s8or8679uf4acpgvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVZBd7nA0uIFrZV93q0djROwywR_oLFlc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519891350930-0f70bsjcdfn0r32s8or8679uf4acpgvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/message_user"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_x="256dp"
+        android:background="#effcfb"
+        android:layout_y="0dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <TextView
+        android:id="@+id/message_time"
+        android:layout_width="175dp"
+        android:background="#effcfb"
+        android:layout_height="wrap_content"
+        android:layout_x="255dp"
+        android:layout_y="21dp"
+
+        android:text="TextView"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="249dp"
+        android:layout_height="36dp"
+        android:layout_x="5dp"
+        android:layout_y="2dp"
+        android:background="#effcfb"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="107dp" />
+</AbsoluteLayout>
